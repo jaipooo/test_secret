@@ -120,7 +120,7 @@ public class MainActivity extends Activity implements OnClickListener {
     task.addPostParam( "post_1", severIDstr[k] );
     task.addPostParam( "post_2", dstr[k] );
     
-    //n=2k=2Ç»ÇÃÇ≈Ç±ÇÃê›íË
+    //n=2k=2Ç»ÇÃÇ≈Ç±ÇÃê›íËÇÌÇ†ÇÌ
     k += 1;
     if(k==4)k=1;
 	   
