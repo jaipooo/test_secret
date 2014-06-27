@@ -18,6 +18,7 @@ import java.util.Random;
  */
 public class MainActivity extends Activity implements OnClickListener {
 
+	//test1.001
   private Button btn = null;
   
   String [] inputnum1;
