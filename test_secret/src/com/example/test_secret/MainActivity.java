@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements OnClickListener {
         severID[6]=5;
         
         for(int i=1; i<4; i++){
-        	dnum[i] = this.knfunc(severID[i], scrtnum);
+        	dnum[i] = knfunc(severID[i], scrtnum);
         	dstr[i] = String.valueOf(dnum[i]);
         	severIDstr[i] = String.valueOf(severID[i]);
         }
@@ -120,6 +120,7 @@ public class MainActivity extends Activity implements OnClickListener {
     task.addPostParam( "post_1", severIDstr[k] );
     task.addPostParam( "post_2", dstr[k] );
     
+    //n=2k=2‚È‚Ì‚Å‚±‚ÌÝ’è
     k += 1;
     if(k==4)k=1;
 	   
